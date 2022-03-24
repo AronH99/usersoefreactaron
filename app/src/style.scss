@@ -1,0 +1,35 @@
+@import url("https://unpkg.com/mvp.css");
+
+body {
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  aside {
+    display: flex;
+    flex: 1 1 260px;
+    height: auto;
+    img {
+      display: block;
+      width: auto;
+      height: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  }
+  p {
+    font-weight: bold;
+    display: flex;
+    font-size: 12px;
+  }
+}
